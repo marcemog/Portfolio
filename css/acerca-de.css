@@ -1,0 +1,153 @@
+.acerca-de {
+    background: #F5F5F5;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 142px;
+}
+
+.acerca-de_todo {
+    display: flex;
+}
+
+.acerca-de_nombre {
+    width: 751px;
+    height: 122px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #464646;
+}
+
+.acerca-de_descripcion {
+    padding-top: 40px;
+    width: 751px;
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+}
+
+.acerca-de_foto {
+    position: static;
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 65%;    
+}
+
+.acerca-de ul {
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.acerca-de li {
+    display: inline;
+    padding-right: 40px;
+}
+
+.acerca-de li img {
+    width: 45px;
+    background-color: #05101c;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+
+/*Para tablets*/
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .acerca-de {
+        padding-left: 40px;
+        justify-content: space-between;
+    }
+
+    .acerca-de_nombre{
+        width: 524px;
+        height: 52px;
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 9px;
+    }
+
+    .acerca-de_descripcion {
+        width: 524px;
+        height: 38px;
+        font-size: 16px;
+        line-height: 19px;
+        padding-top: 8px;
+        margin:0;
+    }
+
+    .acerca-de ul {
+        padding-top: 20px;
+    }
+    .acerca-de li img {
+        width: 30px;
+    }
+
+    
+    .acerca-de_foto {
+        width: 65%
+    }
+
+}
+
+/*Para movil*/
+@media (max-width: 575.98px) {
+    .acerca-de {
+        padding-top: 40px;
+        flex-direction: column;
+        padding-left: 40px;
+        padding-right: 40px;
+        flex-wrap: wrap-reverse;
+    }
+
+    .acerca-de_todo {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .acerca-de_texto {
+        justify-content: center
+    }
+
+    .acerca-de_nombre {
+        width: 260px;
+        height: 52px;
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 9px;
+    }
+
+    .acerca-de_descripcion {
+        padding-top: 25px;
+        width: 260px;
+        height: 48px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .social {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .acerca-de li {
+        padding-right: 55px;
+    }
+
+    .acerca-de li img {
+        width: 33px;
+    }
+
+    .acerca-de_foto-div {
+        margin-left: 50px;
+    }
+    .acerca-de_foto {
+        width: 55%
+    }
+}

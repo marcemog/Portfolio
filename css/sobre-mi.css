@@ -1,0 +1,66 @@
+.sobre-mi {
+    vertical-align: middle;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    background: #EAF2FD;
+    padding-left: 142px;
+}
+
+.sobre-mi_titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.sobre-mi_descripcion {
+    width: 751px;
+    height: 133px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+/*Para tablets*/
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .sobre-mi {
+        padding-left: 40px;
+    }
+
+    .sobre-mi_titulo {
+        width: 94px;
+        height: 26px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .sobre-mi_descripcion {
+        width: 680px;
+        height: 112px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+/*Para movil*/
+@media (max-width: 575.98px) {
+    .sobre-mi {
+        padding-left: 40px;
+    }
+    
+    .sobre-mi_titulo {
+        font-size: 22px;
+    }
+    
+    .sobre-mi_descripcion {
+        width: 270px;
+        height: 208px;
+        font-size: 14px;
+    }
+}

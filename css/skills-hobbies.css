@@ -1,0 +1,86 @@
+.skills-hobbies {
+    text-align: center;
+    width: 100%;
+    background: #F5F5F5;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.skills-titulo, .hobbies-titulo  {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    padding-top: 20px;
+}
+
+.skills-list, .hobbies-list {
+    display: flex;
+    flex-direction: row;  
+    padding-top: 20px;
+    padding-left: 126px;
+    padding-right: 126px;
+    justify-content: center;
+}
+
+.skills-list-item, .hobbies-list-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 13%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    height: 110px;
+	background-color: #FFF;
+    margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+}
+
+.skills-list-item img {
+    width: 60px;
+}
+
+/*Para tablets*/
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .skills-titulo, .hobbies-titulo  {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .skills-list, .hobbies-list {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .skills-list-item, .hobbies-list-item {
+        width: 25%;
+        margin: 1%;
+        font-size: 14px;
+    }
+}
+
+/*Para movil*/
+@media (max-width: 575.98px) {
+    .skills-titulo, .hobbies-titulo  {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .skills-list, .hobbies-list {
+        padding-left: 40px;
+        padding-right: 40px;
+        flex-wrap: wrap;
+    }
+
+    .skills-list-item, .hobbies-list-item {
+        width: 30%;
+        margin: 3%;
+        font-size: 14px;
+    }
+}

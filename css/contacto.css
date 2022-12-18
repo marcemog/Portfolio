@@ -1,0 +1,150 @@
+.contacto {
+    display: flex;
+    width: 100%;
+    background: #EAF2FD;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    justify-content: center;
+}
+
+.contacto-imagen {
+    width: 464px;
+    height: 566px;
+}
+
+.contacto-formulario {
+    height: 593px;
+    margin-left: 16px;
+}
+
+.contacto-formulario-titulo {
+    margin: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.contacto-formulario-descripcion {
+    margin-top: 8px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}
+
+.contacto-formulario-form {
+    flex-direction: column;
+}
+
+.input-element, .input{
+    margin-top:32px;
+}
+
+.input {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #A2A2A2;
+    width: 662px;
+    height: 55px;
+}
+
+/*#email {
+    color: #2A7AE4;
+}*/
+
+.input-group {
+    position: relative; 
+}
+
+input::placeholder {
+    padding-top: 16px;
+    padding-left: 12px; 
+}
+
+.input-label {
+    position: absolute;
+    top: 37px;
+    left: 12px;
+    color: #A2A2A2;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.input-element {
+    padding: 15px 5px 5px 5px;
+    width: 656px;
+    height: 20px;
+}
+
+.contacto-formulario-boton {
+    margin-left: 0;
+    margin-top: 32px;
+}
+
+.mensaje {
+    width: 662px;
+    height: 100px;
+}
+
+/*Para tablets*/
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .contacto {
+        padding-top: 30px;
+    }
+
+    .contacto-imagen {
+        display: none;
+    }
+
+    .contacto-formulario {
+        margin-left: 0;
+    }
+
+    .contacto-formulario-titulo {
+        font-size: 22px;
+    }
+
+    .contacto-formulario-descripcion {
+        font-size: 16px;
+    }
+}
+
+/*Para movil*/
+@media (max-width: 575.98px) {
+    .contacto {
+        padding-top: 30px;
+    }
+
+    .contacto-imagen {
+        display: none;
+    }
+
+    .contacto-formulario {
+        margin-left: 0;
+    }
+
+    .contacto-formulario-titulo {
+        font-size: 22px;
+    }
+
+    .contacto-formulario-descripcion {
+        font-size: 16px;
+        width: 296px;
+        height: 76px;
+    }
+
+    .input-element   {
+        width: 270px;
+    }
+
+    .input {
+        width: 276px;
+    }
+}

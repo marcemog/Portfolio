@@ -1,0 +1,142 @@
+.formacion {   
+    width: 100%;
+    background: #EAF2FD;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.formacion-titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+    text-align: center;
+}
+
+.formacion-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 126px;
+    padding-right: 126px;
+}
+
+.formacion-item {
+    width: 25%;
+    height: 200px;
+    margin: 1%;    
+}
+
+.formacion-imagen {
+    width: 230px;
+    background: white;
+    padding: 35px;
+    height: 150px;
+}
+
+.formacion-nombre {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #464646;
+    margin:0;
+}
+
+.formacion-tiempo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    margin:0;
+}
+
+/*Para tablets*/
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .formacion {
+        padding-bottom: 250px;
+    }
+
+    .formacion-titulo {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .formacion-items {
+        width: 680px;
+        padding-left: 0px;
+        padding-right: 0px;
+        justify-content: space-evenly;
+    }
+
+    .formacion-item {
+        width: 10%;
+        height: 80px;
+        margin: 1%;
+        justify-content: center;    
+    }
+
+    .formacion-imagen {
+        width: 90px;
+        height: 90px;
+    }
+
+    .formacion-nombre {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .formacion-tiempo {
+        font-size: 14px;
+        width: 81px;
+        height: 16px;
+    }
+}
+
+/*Para movil*/
+@media (max-width: 575.98px) {
+    .formacion {
+        padding-bottom: 50px;
+    }
+
+    .formacion-titulo {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .formacion-items {
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+        align-items: center;
+        width: max-content;
+    }
+
+    .formacion-item {
+        width: 10%;
+        height: 280px;
+        margin: 1%;
+        justify-content: center;    
+    }
+
+    .formacion-imagen {
+        width: 80px;
+        height: 70px;
+    }
+
+    .formacion-nombre {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .formacion-tiempo {
+        font-size: 14px;
+        width: 81px;
+        height: 16px;
+    }
+}
+
+
